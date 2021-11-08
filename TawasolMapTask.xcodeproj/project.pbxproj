@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7AF7E3802739BFF4008C3E8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7E37F2739BFF4008C3E8E /* AppDelegate.swift */; };
+		7AF7E3822739BFF4008C3E8E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7E3812739BFF4008C3E8E /* SceneDelegate.swift */; };
+		7AF7E3842739BFF4008C3E8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7E3832739BFF4008C3E8E /* ViewController.swift */; };
+		7AF7E3872739BFF4008C3E8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AF7E3852739BFF4008C3E8E /* Main.storyboard */; };
+		7AF7E3892739BFF6008C3E8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AF7E3882739BFF6008C3E8E /* Assets.xcassets */; };
+		7AF7E38C2739BFF6008C3E8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AF7E38A2739BFF6008C3E8E /* LaunchScreen.storyboard */; };
+		7AF7E3972739BFF7008C3E8E /* TawasolMapTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7E3962739BFF7008C3E8E /* TawasolMapTaskTests.swift */; };
+		7AF7E3A12739BFF7008C3E8E /* TawasolMapTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7E3A02739BFF7008C3E8E /* TawasolMapTaskUITests.swift */; };
+		7AF7E3A32739BFF7008C3E8E /* TawasolMapTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7E3A22739BFF7008C3E8E /* TawasolMapTaskUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AF7E3932739BFF7008C3E8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AF7E3742739BFF4008C3E8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AF7E37B2739BFF4008C3E8E;
+			remoteInfo = TawasolMapTask;
+		};
+		7AF7E39D2739BFF7008C3E8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AF7E3742739BFF4008C3E8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AF7E37B2739BFF4008C3E8E;
+			remoteInfo = TawasolMapTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7AF7E37C2739BFF4008C3E8E /* TawasolMapTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TawasolMapTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AF7E37F2739BFF4008C3E8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7AF7E3812739BFF4008C3E8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7AF7E3832739BFF4008C3E8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7AF7E3862739BFF4008C3E8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AF7E3882739BFF6008C3E8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AF7E38B2739BFF6008C3E8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7AF7E38D2739BFF6008C3E8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AF7E3922739BFF7008C3E8E /* TawasolMapTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TawasolMapTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AF7E3962739BFF7008C3E8E /* TawasolMapTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TawasolMapTaskTests.swift; sourceTree = "<group>"; };
+		7AF7E39C2739BFF7008C3E8E /* TawasolMapTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TawasolMapTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AF7E3A02739BFF7008C3E8E /* TawasolMapTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TawasolMapTaskUITests.swift; sourceTree = "<group>"; };
+		7AF7E3A22739BFF7008C3E8E /* TawasolMapTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TawasolMapTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AF7E3792739BFF4008C3E8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF7E38F2739BFF7008C3E8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF7E3992739BFF7008C3E8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AF7E3732739BFF4008C3E8E = {
+			isa = PBXGroup;
+			children = (
+				7AF7E37E2739BFF4008C3E8E /* TawasolMapTask */,
+				7AF7E3952739BFF7008C3E8E /* TawasolMapTaskTests */,
+				7AF7E39F2739BFF7008C3E8E /* TawasolMapTaskUITests */,
+				7AF7E37D2739BFF4008C3E8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AF7E37D2739BFF4008C3E8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AF7E37C2739BFF4008C3E8E /* TawasolMapTask.app */,
+				7AF7E3922739BFF7008C3E8E /* TawasolMapTaskTests.xctest */,
+				7AF7E39C2739BFF7008C3E8E /* TawasolMapTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AF7E37E2739BFF4008C3E8E /* TawasolMapTask */ = {
+			isa = PBXGroup;
+			children = (
+				7AF7E37F2739BFF4008C3E8E /* AppDelegate.swift */,
+				7AF7E3812739BFF4008C3E8E /* SceneDelegate.swift */,
+				7AF7E3832739BFF4008C3E8E /* ViewController.swift */,
+				7AF7E3852739BFF4008C3E8E /* Main.storyboard */,
+				7AF7E3882739BFF6008C3E8E /* Assets.xcassets */,
+				7AF7E38A2739BFF6008C3E8E /* LaunchScreen.storyboard */,
+				7AF7E38D2739BFF6008C3E8E /* Info.plist */,
+			);
+			path = TawasolMapTask;
+			sourceTree = "<group>";
+		};
+		7AF7E3952739BFF7008C3E8E /* TawasolMapTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				7AF7E3962739BFF7008C3E8E /* TawasolMapTaskTests.swift */,
+			);
+			path = TawasolMapTaskTests;
+			sourceTree = "<group>";
+		};
+		7AF7E39F2739BFF7008C3E8E /* TawasolMapTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7AF7E3A02739BFF7008C3E8E /* TawasolMapTaskUITests.swift */,
+				7AF7E3A22739BFF7008C3E8E /* TawasolMapTaskUITestsLaunchTests.swift */,
+			);
+			path = TawasolMapTaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AF7E37B2739BFF4008C3E8E /* TawasolMapTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AF7E3A62739BFF7008C3E8E /* Build configuration list for PBXNativeTarget "TawasolMapTask" */;
+			buildPhases = (
+				7AF7E3782739BFF4008C3E8E /* Sources */,
+				7AF7E3792739BFF4008C3E8E /* Frameworks */,
+				7AF7E37A2739BFF4008C3E8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TawasolMapTask;
+			productName = TawasolMapTask;
+			productReference = 7AF7E37C2739BFF4008C3E8E /* TawasolMapTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7AF7E3912739BFF7008C3E8E /* TawasolMapTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AF7E3A92739BFF7008C3E8E /* Build configuration list for PBXNativeTarget "TawasolMapTaskTests" */;
+			buildPhases = (
+				7AF7E38E2739BFF7008C3E8E /* Sources */,
+				7AF7E38F2739BFF7008C3E8E /* Frameworks */,
+				7AF7E3902739BFF7008C3E8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AF7E3942739BFF7008C3E8E /* PBXTargetDependency */,
+			);
+			name = TawasolMapTaskTests;
+			productName = TawasolMapTaskTests;
+			productReference = 7AF7E3922739BFF7008C3E8E /* TawasolMapTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7AF7E39B2739BFF7008C3E8E /* TawasolMapTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AF7E3AC2739BFF7008C3E8E /* Build configuration list for PBXNativeTarget "TawasolMapTaskUITests" */;
+			buildPhases = (
+				7AF7E3982739BFF7008C3E8E /* Sources */,
+				7AF7E3992739BFF7008C3E8E /* Frameworks */,
+				7AF7E39A2739BFF7008C3E8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AF7E39E2739BFF7008C3E8E /* PBXTargetDependency */,
+			);
+			name = TawasolMapTaskUITests;
+			productName = TawasolMapTaskUITests;
+			productReference = 7AF7E39C2739BFF7008C3E8E /* TawasolMapTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AF7E3742739BFF4008C3E8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					7AF7E37B2739BFF4008C3E8E = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					7AF7E3912739BFF7008C3E8E = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 7AF7E37B2739BFF4008C3E8E;
+					};
+					7AF7E39B2739BFF7008C3E8E = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 7AF7E37B2739BFF4008C3E8E;
+					};
+				};
+			};
+			buildConfigurationList = 7AF7E3772739BFF4008C3E8E /* Build configuration list for PBXProject "TawasolMapTask" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AF7E3732739BFF4008C3E8E;
+			productRefGroup = 7AF7E37D2739BFF4008C3E8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AF7E37B2739BFF4008C3E8E /* TawasolMapTask */,
+				7AF7E3912739BFF7008C3E8E /* TawasolMapTaskTests */,
+				7AF7E39B2739BFF7008C3E8E /* TawasolMapTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AF7E37A2739BFF4008C3E8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF7E38C2739BFF6008C3E8E /* LaunchScreen.storyboard in Resources */,
+				7AF7E3892739BFF6008C3E8E /* Assets.xcassets in Resources */,
+				7AF7E3872739BFF4008C3E8E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF7E3902739BFF7008C3E8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF7E39A2739BFF7008C3E8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AF7E3782739BFF4008C3E8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF7E3842739BFF4008C3E8E /* ViewController.swift in Sources */,
+				7AF7E3802739BFF4008C3E8E /* AppDelegate.swift in Sources */,
+				7AF7E3822739BFF4008C3E8E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF7E38E2739BFF7008C3E8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF7E3972739BFF7008C3E8E /* TawasolMapTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF7E3982739BFF7008C3E8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF7E3A32739BFF7008C3E8E /* TawasolMapTaskUITestsLaunchTests.swift in Sources */,
+				7AF7E3A12739BFF7008C3E8E /* TawasolMapTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AF7E3942739BFF7008C3E8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AF7E37B2739BFF4008C3E8E /* TawasolMapTask */;
+			targetProxy = 7AF7E3932739BFF7008C3E8E /* PBXContainerItemProxy */;
+		};
+		7AF7E39E2739BFF7008C3E8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AF7E37B2739BFF4008C3E8E /* TawasolMapTask */;
+			targetProxy = 7AF7E39D2739BFF7008C3E8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7AF7E3852739BFF4008C3E8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AF7E3862739BFF4008C3E8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7AF7E38A2739BFF6008C3E8E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AF7E38B2739BFF6008C3E8E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AF7E3A42739BFF7008C3E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7AF7E3A52739BFF7008C3E8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AF7E3A72739BFF7008C3E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BP6M739D4C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TawasolMapTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ahmad.eisa.tawasolmaptask.TawasolMapTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AF7E3A82739BFF7008C3E8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BP6M739D4C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TawasolMapTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ahmad.eisa.tawasolmaptask.TawasolMapTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7AF7E3AA2739BFF7008C3E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BP6M739D4C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ahmad.eisa.tawasolmaptask.TawasolMapTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TawasolMapTask.app/TawasolMapTask";
+			};
+			name = Debug;
+		};
+		7AF7E3AB2739BFF7008C3E8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BP6M739D4C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ahmad.eisa.tawasolmaptask.TawasolMapTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TawasolMapTask.app/TawasolMapTask";
+			};
+			name = Release;
+		};
+		7AF7E3AD2739BFF7008C3E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BP6M739D4C;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ahmad.eisa.tawasolmaptask.TawasolMapTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TawasolMapTask;
+			};
+			name = Debug;
+		};
+		7AF7E3AE2739BFF7008C3E8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BP6M739D4C;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ahmad.eisa.tawasolmaptask.TawasolMapTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TawasolMapTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AF7E3772739BFF4008C3E8E /* Build configuration list for PBXProject "TawasolMapTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF7E3A42739BFF7008C3E8E /* Debug */,
+				7AF7E3A52739BFF7008C3E8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AF7E3A62739BFF7008C3E8E /* Build configuration list for PBXNativeTarget "TawasolMapTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF7E3A72739BFF7008C3E8E /* Debug */,
+				7AF7E3A82739BFF7008C3E8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AF7E3A92739BFF7008C3E8E /* Build configuration list for PBXNativeTarget "TawasolMapTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF7E3AA2739BFF7008C3E8E /* Debug */,
+				7AF7E3AB2739BFF7008C3E8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AF7E3AC2739BFF7008C3E8E /* Build configuration list for PBXNativeTarget "TawasolMapTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF7E3AD2739BFF7008C3E8E /* Debug */,
+				7AF7E3AE2739BFF7008C3E8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AF7E3742739BFF4008C3E8E /* Project object */;
+}
