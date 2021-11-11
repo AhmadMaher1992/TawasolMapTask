@@ -17,6 +17,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         navBarSetUP()
+        
         guard let _ = (scene as? UIWindowScene) else { return }
     }
 
@@ -92,6 +93,19 @@ extension SceneDelegate {
         
         
         
+        
+    }
+    
+    func statusBarSetUP(){
+        
+        
+        if #available(iOS 13, *) {
+            let window = UIApplication.shared.windows.filter {$0.isKeyWindow}.first
+            let statusBar = UIView(frame: window?.windowScene?.statusBarManager?.statusBarFrame ?? CGRect.zero)
+            statusBar.backgroundColor = #colorLiteral(red: 0.2784313725, green: 0.4549019608, blue: 0.5921568627, alpha: 1) //UIColor.init(hexString: "#002856")
+            statusBar.tintColor = UIColor.white
+            window?.addSubview(statusBar)
+        }
         
     }
 

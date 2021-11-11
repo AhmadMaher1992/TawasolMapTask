@@ -19,14 +19,13 @@ class MainVC: UIViewController {
     
     var mainViewModel: MainViewModel!
     var webView: WKWebView!
-    let header = "content-type"
     
     
     //------------------------------------------
     // MARK: - Life Cycle
     //------------------------------------------
     
-    
+   
     override func loadView() {
         let prefs = WKWebpagePreferences()
         prefs.allowsContentJavaScript = true
