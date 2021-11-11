@@ -46,7 +46,13 @@ class DetailsVC: UIViewController , Storyboarded{
         hideBtn()
         configureViewModel()
         bindData()
+       
         
+    }
+    override func viewDidLayoutSubviews() {
+      super.viewDidLayoutSubviews()
+
+        detailsTextView.contentOffset = .zero
     }
     
     //------------------------------------------
