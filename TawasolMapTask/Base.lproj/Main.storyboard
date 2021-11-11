@@ -1,24 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Upx-q0-DQ6">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--MainVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MainVC" customModule="TawasolMapTask" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="mgn-xd-BrE"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="995.65217391304361" y="92.410714285714278"/>
+        </scene>
+        <!--DetailsVC-->
+        <scene sceneID="Dkb-1g-AiC">
+            <objects>
+                <viewController storyboardIdentifier="DetailsVC" id="Phe-NF-Psv" customClass="DetailsVC" customModule="TawasolMapTask" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BdI-R5-DqM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kkO-S6-4tL">
+                                <rect key="frame" x="0.0" y="129" width="414" height="713"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis</string>
+                                <color key="textColor" red="0.0" green="0.56284224989999998" blue="0.31881666180000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="O3x-Ks-x78">
+                                <rect key="frame" x="20" y="64" width="374" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Vf-bQ-nAG">
+                                        <rect key="frame" x="0.0" y="0.0" width="111.5" height="50"/>
+                                        <color key="backgroundColor" red="0.80392156859999997" green="0.17254901959999999" blue="0.19215686269999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Calculate Sensors values">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="getCalculationsValuesActions:" destination="Phe-NF-Psv" eventType="touchUpInside" id="IQh-j2-3Xp"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hYN-3p-QTL">
+                                        <rect key="frame" x="131.5" y="0.0" width="111" height="50"/>
+                                        <color key="backgroundColor" red="0.80392156859999997" green="0.17254901959999999" blue="0.19215686269999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="2Kh-I1-JeE"/>
+                                        </constraints>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Get Address">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="getAddressActions:" destination="Phe-NF-Psv" eventType="touchUpInside" id="JBb-yc-dDv"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eEf-CX-LOO">
+                                        <rect key="frame" x="262.5" y="0.0" width="111.5" height="50"/>
+                                        <color key="backgroundColor" red="0.80392156859999997" green="0.17254901959999999" blue="0.19215686269999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Get Units">
+                                            <fontDescription key="titleFontDescription" type="boldSystem" pointSize="25"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="getUnitsActions:" destination="Phe-NF-Psv" eventType="touchUpInside" id="cdx-2E-0JT"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="coL-4J-Nd6"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="O3x-Ks-x78" firstAttribute="leading" secondItem="coL-4J-Nd6" secondAttribute="leading" constant="20" id="DTB-OF-j4Z"/>
+                            <constraint firstItem="kkO-S6-4tL" firstAttribute="top" secondItem="O3x-Ks-x78" secondAttribute="bottom" constant="15" id="X2Z-Xk-zUt"/>
+                            <constraint firstItem="kkO-S6-4tL" firstAttribute="leading" secondItem="coL-4J-Nd6" secondAttribute="leading" id="dSC-wf-Alo"/>
+                            <constraint firstItem="coL-4J-Nd6" firstAttribute="trailing" secondItem="kkO-S6-4tL" secondAttribute="trailing" id="jRL-l3-9Cj"/>
+                            <constraint firstItem="coL-4J-Nd6" firstAttribute="trailing" secondItem="O3x-Ks-x78" secondAttribute="trailing" constant="20" id="tSi-v2-gHu"/>
+                            <constraint firstItem="O3x-Ks-x78" firstAttribute="top" secondItem="coL-4J-Nd6" secondAttribute="top" constant="20" id="yzS-91-A1j"/>
+                            <constraint firstItem="coL-4J-Nd6" firstAttribute="bottom" secondItem="kkO-S6-4tL" secondAttribute="bottom" constant="20" id="zVf-rw-8PV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="calculateValuesBtn" destination="5Vf-bQ-nAG" id="uzA-kb-FXI"/>
+                        <outlet property="detailsTextView" destination="kkO-S6-4tL" id="F39-KK-C8W"/>
+                        <outlet property="getAddressBtn" destination="hYN-3p-QTL" id="uRN-pe-bgF"/>
+                        <outlet property="getUnitsBtn" destination="eEf-CX-LOO" id="Pba-aC-P5R"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GvS-Ne-tRE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1627.536231884058" y="91.741071428571431"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="EuY-Tl-QUk">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Upx-q0-DQ6" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="pua-Tu-RZI">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="2vU-Vr-oGM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ARV-z4-qpl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="85.507246376811594" y="92.410714285714278"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

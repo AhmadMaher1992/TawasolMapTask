@@ -7,15 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BB6309DFD587565454848E5 /* Pods_TawasolMapTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323FFB589868268F4BD07DAD /* Pods_TawasolMapTaskTests.framework */; };
+		3FED462A9A4CA55CA07911A0 /* Pods_TawasolMapTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAAB4D132E09D02465B94EC7 /* Pods_TawasolMapTask.framework */; };
+		7A53D9E0273AB7BE003C5793 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A53D9DF273AB7BE003C5793 /* URL.swift */; };
+		7A53D9E2273ABBB2003C5793 /* WKWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A53D9E1273ABBB2003C5793 /* WKWebView.swift */; };
+		7A53D9E5273AC0D8003C5793 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A53D9E4273AC0D8003C5793 /* ApiService.swift */; };
+		7A53D9E7273ADAFF003C5793 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A53D9E6273ADAFF003C5793 /* Config.swift */; };
+		7A53D9E9273AE6E2003C5793 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A53D9E8273AE6E2003C5793 /* String.swift */; };
+		7AF2A8E9273C46D200AEB11E /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF2A8E8273C46D200AEB11E /* Observable.swift */; };
+		7AF2A8EB273C46F100AEB11E /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF2A8EA273C46F100AEB11E /* MainViewModel.swift */; };
+		7AF2A8ED273C4D9100AEB11E /* HUDProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF2A8EC273C4D9100AEB11E /* HUDProgress.swift */; };
+		7AF2A8EF273C4F8000AEB11E /* StoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF2A8EE273C4F8000AEB11E /* StoryBoard.swift */; };
+		7AF2A8F2273C521400AEB11E /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF2A8F1273C521400AEB11E /* DetailsVC.swift */; };
+		7AF2A8F4273C693300AEB11E /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF2A8F3273C693300AEB11E /* DetailsViewModel.swift */; };
+		7AF2A8F6273C81C800AEB11E /* GetAddressResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF2A8F5273C81C800AEB11E /* GetAddressResponse.swift */; };
+		7AF51737273B6EAC008F78AE /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF51736273B6EAC008F78AE /* Service.swift */; };
+		7AF51739273B93D7008F78AE /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF51738273B93D7008F78AE /* Helper.swift */; };
+		7AF5173B273B94C9008F78AE /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF5173A273B94C9008F78AE /* Alert.swift */; };
+		7AF5173D273BA6EE008F78AE /* GetUnitsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF5173C273BA6EE008F78AE /* GetUnitsResponse.swift */; };
 		7AF7E3802739BFF4008C3E8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7E37F2739BFF4008C3E8E /* AppDelegate.swift */; };
 		7AF7E3822739BFF4008C3E8E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7E3812739BFF4008C3E8E /* SceneDelegate.swift */; };
-		7AF7E3842739BFF4008C3E8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7E3832739BFF4008C3E8E /* ViewController.swift */; };
+		7AF7E3842739BFF4008C3E8E /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7E3832739BFF4008C3E8E /* MainVC.swift */; };
 		7AF7E3872739BFF4008C3E8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AF7E3852739BFF4008C3E8E /* Main.storyboard */; };
 		7AF7E3892739BFF6008C3E8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AF7E3882739BFF6008C3E8E /* Assets.xcassets */; };
 		7AF7E38C2739BFF6008C3E8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AF7E38A2739BFF6008C3E8E /* LaunchScreen.storyboard */; };
 		7AF7E3972739BFF7008C3E8E /* TawasolMapTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7E3962739BFF7008C3E8E /* TawasolMapTaskTests.swift */; };
 		7AF7E3A12739BFF7008C3E8E /* TawasolMapTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7E3A02739BFF7008C3E8E /* TawasolMapTaskUITests.swift */; };
 		7AF7E3A32739BFF7008C3E8E /* TawasolMapTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7E3A22739BFF7008C3E8E /* TawasolMapTaskUITestsLaunchTests.swift */; };
+		7AF7E3B12739C035008C3E8E /* USeTokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7E3B02739C035008C3E8E /* USeTokenResponse.swift */; };
+		7AF7E3B42739C99D008C3E8E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7E3B32739C99D008C3E8E /* Constants.swift */; };
+		E1653E29F3136F3C0813D218 /* Pods_TawasolMapTask_TawasolMapTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D0A8F7034FAF68E9EC7C3B3 /* Pods_TawasolMapTask_TawasolMapTaskUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +57,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11436A8E5C1651B64B1E72BB /* Pods-TawasolMapTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TawasolMapTaskTests.release.xcconfig"; path = "Target Support Files/Pods-TawasolMapTaskTests/Pods-TawasolMapTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		1D0A8F7034FAF68E9EC7C3B3 /* Pods_TawasolMapTask_TawasolMapTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TawasolMapTask_TawasolMapTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F676DCD5FDBC6779DF2FB45 /* Pods-TawasolMapTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TawasolMapTask.release.xcconfig"; path = "Target Support Files/Pods-TawasolMapTask/Pods-TawasolMapTask.release.xcconfig"; sourceTree = "<group>"; };
+		25DEAD16726FDE0C08B20F84 /* Pods-TawasolMapTask-TawasolMapTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TawasolMapTask-TawasolMapTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-TawasolMapTask-TawasolMapTaskUITests/Pods-TawasolMapTask-TawasolMapTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		323FFB589868268F4BD07DAD /* Pods_TawasolMapTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TawasolMapTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		654AC58F5FA34B8D97333D16 /* Pods-TawasolMapTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TawasolMapTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-TawasolMapTaskTests/Pods-TawasolMapTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A53D9DF273AB7BE003C5793 /* URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
+		7A53D9E1273ABBB2003C5793 /* WKWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebView.swift; sourceTree = "<group>"; };
+		7A53D9E4273AC0D8003C5793 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		7A53D9E6273ADAFF003C5793 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		7A53D9E8273AE6E2003C5793 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		7AF2A8E8273C46D200AEB11E /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		7AF2A8EA273C46F100AEB11E /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		7AF2A8EC273C4D9100AEB11E /* HUDProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDProgress.swift; sourceTree = "<group>"; };
+		7AF2A8EE273C4F8000AEB11E /* StoryBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBoard.swift; sourceTree = "<group>"; };
+		7AF2A8F1273C521400AEB11E /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		7AF2A8F3273C693300AEB11E /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
+		7AF2A8F5273C81C800AEB11E /* GetAddressResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAddressResponse.swift; sourceTree = "<group>"; };
+		7AF51736273B6EAC008F78AE /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		7AF51738273B93D7008F78AE /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		7AF5173A273B94C9008F78AE /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		7AF5173C273BA6EE008F78AE /* GetUnitsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUnitsResponse.swift; sourceTree = "<group>"; };
 		7AF7E37C2739BFF4008C3E8E /* TawasolMapTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TawasolMapTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AF7E37F2739BFF4008C3E8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AF7E3812739BFF4008C3E8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7AF7E3832739BFF4008C3E8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7AF7E3832739BFF4008C3E8E /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		7AF7E3862739BFF4008C3E8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7AF7E3882739BFF6008C3E8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AF7E38B2739BFF6008C3E8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +92,11 @@
 		7AF7E39C2739BFF7008C3E8E /* TawasolMapTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TawasolMapTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AF7E3A02739BFF7008C3E8E /* TawasolMapTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TawasolMapTaskUITests.swift; sourceTree = "<group>"; };
 		7AF7E3A22739BFF7008C3E8E /* TawasolMapTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TawasolMapTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7AF7E3B02739C035008C3E8E /* USeTokenResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USeTokenResponse.swift; sourceTree = "<group>"; };
+		7AF7E3B32739C99D008C3E8E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		ABE7973BF679842FFDCC83E6 /* Pods-TawasolMapTask-TawasolMapTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TawasolMapTask-TawasolMapTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-TawasolMapTask-TawasolMapTaskUITests/Pods-TawasolMapTask-TawasolMapTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CF891A1F00DDF65A22DDD384 /* Pods-TawasolMapTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TawasolMapTask.debug.xcconfig"; path = "Target Support Files/Pods-TawasolMapTask/Pods-TawasolMapTask.debug.xcconfig"; sourceTree = "<group>"; };
+		DAAB4D132E09D02465B94EC7 /* Pods_TawasolMapTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TawasolMapTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FED462A9A4CA55CA07911A0 /* Pods_TawasolMapTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BB6309DFD587565454848E5 /* Pods_TawasolMapTaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +120,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1653E29F3136F3C0813D218 /* Pods_TawasolMapTask_TawasolMapTaskUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A53D9DE273AB7A7003C5793 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7A53D9DF273AB7BE003C5793 /* URL.swift */,
+				7A53D9E1273ABBB2003C5793 /* WKWebView.swift */,
+				7A53D9E8273AE6E2003C5793 /* String.swift */,
+				7AF51738273B93D7008F78AE /* Helper.swift */,
+				7AF5173A273B94C9008F78AE /* Alert.swift */,
+				7AF2A8EC273C4D9100AEB11E /* HUDProgress.swift */,
+				7AF2A8EE273C4F8000AEB11E /* StoryBoard.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7A53D9E3273AC0C5003C5793 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				7A53D9E4273AC0D8003C5793 /* ApiService.swift */,
+				7A53D9E6273ADAFF003C5793 /* Config.swift */,
+				7AF51736273B6EAC008F78AE /* Service.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		7AF2A8E7273C46BF00AEB11E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7AF2A8E8273C46D200AEB11E /* Observable.swift */,
+				7AF2A8EA273C46F100AEB11E /* MainViewModel.swift */,
+				7AF2A8F3273C693300AEB11E /* DetailsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7AF2A8F0273C51EE00AEB11E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7AF7E3832739BFF4008C3E8E /* MainVC.swift */,
+				7AF2A8F1273C521400AEB11E /* DetailsVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		7AF7E3732739BFF4008C3E8E = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +177,8 @@
 				7AF7E3952739BFF7008C3E8E /* TawasolMapTaskTests */,
 				7AF7E39F2739BFF7008C3E8E /* TawasolMapTaskUITests */,
 				7AF7E37D2739BFF4008C3E8E /* Products */,
+				BB264F78FC25A025A40E257C /* Pods */,
+				AF6D5D61B97EF7CC41B93A80 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +195,13 @@
 		7AF7E37E2739BFF4008C3E8E /* TawasolMapTask */ = {
 			isa = PBXGroup;
 			children = (
-				7AF7E37F2739BFF4008C3E8E /* AppDelegate.swift */,
-				7AF7E3812739BFF4008C3E8E /* SceneDelegate.swift */,
-				7AF7E3832739BFF4008C3E8E /* ViewController.swift */,
+				7AF7E3B22739C1B4008C3E8E /* Delegate */,
+				7A53D9E3273AC0C5003C5793 /* WebService */,
+				7AF7E3AF2739C00B008C3E8E /* Model */,
+				7AF2A8E7273C46BF00AEB11E /* ViewModels */,
+				7AF2A8F0273C51EE00AEB11E /* View */,
+				7A53D9DE273AB7A7003C5793 /* Extensions */,
+				7AF7E3B32739C99D008C3E8E /* Constants.swift */,
 				7AF7E3852739BFF4008C3E8E /* Main.storyboard */,
 				7AF7E3882739BFF6008C3E8E /* Assets.xcassets */,
 				7AF7E38A2739BFF6008C3E8E /* LaunchScreen.storyboard */,
@@ -127,6 +227,48 @@
 			path = TawasolMapTaskUITests;
 			sourceTree = "<group>";
 		};
+		7AF7E3AF2739C00B008C3E8E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7AF7E3B02739C035008C3E8E /* USeTokenResponse.swift */,
+				7AF5173C273BA6EE008F78AE /* GetUnitsResponse.swift */,
+				7AF2A8F5273C81C800AEB11E /* GetAddressResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7AF7E3B22739C1B4008C3E8E /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				7AF7E37F2739BFF4008C3E8E /* AppDelegate.swift */,
+				7AF7E3812739BFF4008C3E8E /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		AF6D5D61B97EF7CC41B93A80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAAB4D132E09D02465B94EC7 /* Pods_TawasolMapTask.framework */,
+				1D0A8F7034FAF68E9EC7C3B3 /* Pods_TawasolMapTask_TawasolMapTaskUITests.framework */,
+				323FFB589868268F4BD07DAD /* Pods_TawasolMapTaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB264F78FC25A025A40E257C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF891A1F00DDF65A22DDD384 /* Pods-TawasolMapTask.debug.xcconfig */,
+				1F676DCD5FDBC6779DF2FB45 /* Pods-TawasolMapTask.release.xcconfig */,
+				25DEAD16726FDE0C08B20F84 /* Pods-TawasolMapTask-TawasolMapTaskUITests.debug.xcconfig */,
+				ABE7973BF679842FFDCC83E6 /* Pods-TawasolMapTask-TawasolMapTaskUITests.release.xcconfig */,
+				654AC58F5FA34B8D97333D16 /* Pods-TawasolMapTaskTests.debug.xcconfig */,
+				11436A8E5C1651B64B1E72BB /* Pods-TawasolMapTaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +276,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7AF7E3A62739BFF7008C3E8E /* Build configuration list for PBXNativeTarget "TawasolMapTask" */;
 			buildPhases = (
+				12822E11F3FDEFB273756DBC /* [CP] Check Pods Manifest.lock */,
 				7AF7E3782739BFF4008C3E8E /* Sources */,
 				7AF7E3792739BFF4008C3E8E /* Frameworks */,
 				7AF7E37A2739BFF4008C3E8E /* Resources */,
+				B9B6E1B8996362B79E062B8A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +295,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7AF7E3A92739BFF7008C3E8E /* Build configuration list for PBXNativeTarget "TawasolMapTaskTests" */;
 			buildPhases = (
+				80B855FCBD4DF02A97F4AD52 /* [CP] Check Pods Manifest.lock */,
 				7AF7E38E2739BFF7008C3E8E /* Sources */,
 				7AF7E38F2739BFF7008C3E8E /* Frameworks */,
 				7AF7E3902739BFF7008C3E8E /* Resources */,
@@ -169,9 +314,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7AF7E3AC2739BFF7008C3E8E /* Build configuration list for PBXNativeTarget "TawasolMapTaskUITests" */;
 			buildPhases = (
+				24283E3DA8EB6F421ABD55B3 /* [CP] Check Pods Manifest.lock */,
 				7AF7E3982739BFF7008C3E8E /* Sources */,
 				7AF7E3992739BFF7008C3E8E /* Frameworks */,
 				7AF7E39A2739BFF7008C3E8E /* Resources */,
+				EDF7B5B0FEF1746E9AC41700 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +400,135 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12822E11F3FDEFB273756DBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TawasolMapTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24283E3DA8EB6F421ABD55B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TawasolMapTask-TawasolMapTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80B855FCBD4DF02A97F4AD52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TawasolMapTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9B6E1B8996362B79E062B8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TawasolMapTask/Pods-TawasolMapTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TawasolMapTask/Pods-TawasolMapTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TawasolMapTask/Pods-TawasolMapTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDF7B5B0FEF1746E9AC41700 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TawasolMapTask-TawasolMapTaskUITests/Pods-TawasolMapTask-TawasolMapTaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TawasolMapTask-TawasolMapTaskUITests/Pods-TawasolMapTask-TawasolMapTaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TawasolMapTask-TawasolMapTaskUITests/Pods-TawasolMapTask-TawasolMapTaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7AF7E3782739BFF4008C3E8E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AF7E3842739BFF4008C3E8E /* ViewController.swift in Sources */,
+				7A53D9E2273ABBB2003C5793 /* WKWebView.swift in Sources */,
+				7AF2A8E9273C46D200AEB11E /* Observable.swift in Sources */,
+				7AF7E3B42739C99D008C3E8E /* Constants.swift in Sources */,
+				7A53D9E9273AE6E2003C5793 /* String.swift in Sources */,
+				7A53D9E7273ADAFF003C5793 /* Config.swift in Sources */,
+				7AF7E3842739BFF4008C3E8E /* MainVC.swift in Sources */,
+				7AF2A8EB273C46F100AEB11E /* MainViewModel.swift in Sources */,
+				7AF2A8F6273C81C800AEB11E /* GetAddressResponse.swift in Sources */,
+				7AF2A8F4273C693300AEB11E /* DetailsViewModel.swift in Sources */,
+				7AF5173B273B94C9008F78AE /* Alert.swift in Sources */,
 				7AF7E3802739BFF4008C3E8E /* AppDelegate.swift in Sources */,
+				7AF7E3B12739C035008C3E8E /* USeTokenResponse.swift in Sources */,
+				7AF2A8F2273C521400AEB11E /* DetailsVC.swift in Sources */,
+				7AF2A8EF273C4F8000AEB11E /* StoryBoard.swift in Sources */,
 				7AF7E3822739BFF4008C3E8E /* SceneDelegate.swift in Sources */,
+				7AF51737273B6EAC008F78AE /* Service.swift in Sources */,
+				7A53D9E5273AC0D8003C5793 /* ApiService.swift in Sources */,
+				7AF2A8ED273C4D9100AEB11E /* HUDProgress.swift in Sources */,
+				7A53D9E0273AB7BE003C5793 /* URL.swift in Sources */,
+				7AF51739273B93D7008F78AE /* Helper.swift in Sources */,
+				7AF5173D273BA6EE008F78AE /* GetUnitsResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +702,7 @@
 		};
 		7AF7E3A72739BFF7008C3E8E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF891A1F00DDF65A22DDD384 /* Pods-TawasolMapTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,6 +731,7 @@
 		};
 		7AF7E3A82739BFF7008C3E8E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F676DCD5FDBC6779DF2FB45 /* Pods-TawasolMapTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -490,6 +760,7 @@
 		};
 		7AF7E3AA2739BFF7008C3E8E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 654AC58F5FA34B8D97333D16 /* Pods-TawasolMapTaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +786,7 @@
 		};
 		7AF7E3AB2739BFF7008C3E8E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11436A8E5C1651B64B1E72BB /* Pods-TawasolMapTaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -540,6 +812,7 @@
 		};
 		7AF7E3AD2739BFF7008C3E8E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25DEAD16726FDE0C08B20F84 /* Pods-TawasolMapTask-TawasolMapTaskUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -563,6 +836,7 @@
 		};
 		7AF7E3AE2739BFF7008C3E8E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABE7973BF679842FFDCC83E6 /* Pods-TawasolMapTask-TawasolMapTaskUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

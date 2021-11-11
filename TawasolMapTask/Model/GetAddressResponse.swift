@@ -1,0 +1,15 @@
+//
+//  GetAddressResponse.swift
+//  TawasolMapTask
+//
+//  Created by Ahmad Eisa on 11/11/2021.
+//
+
+import Foundation
+
+
+struct GetAddressResponse: Codable {
+    
+    var address: [String]?
+    
+}
